@@ -1,0 +1,9 @@
+var a=9, b=9, c=3;
+
+if (a==b && b==c && c==a) {
+    console.log("Equilateral Triandle");
+} else if (a==b || b==c || c==a) {
+    console.log("Isoceles Triangle");
+} else{
+    console.log("Scalene Triangle");
+}

@@ -1,0 +1,13 @@
+// console.log(typeof(1));
+// console.log(typeof "razz");
+// console.log(typeof true);
+// console.log(typeof null);
+// console.log(typeof -0);
+console.log(1 - "0xa");
+console.log("4"*"4");
+// console.log(true + ture);
+let cond = "true" + true;
+console.log(cond);
+let res = "10" + {x:10, toString() {return "hola";}, valueOf() {return 5;}};
+console.log(res);
+console.log(typeof(res));

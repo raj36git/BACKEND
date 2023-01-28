@@ -1,0 +1,9 @@
+//== :- 
+//=== :-
+
+console.log(1=="1");
+console.log(1=="razz");
+
+console.log(1==="1");
+console.log(1==="razz");
+console.log(NaN === NaN);
